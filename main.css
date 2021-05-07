@@ -132,6 +132,7 @@ table {
 
 /*--------------nav---------------------*/
 body {
+	font-family: 'Raleway', sans-serif;
 	background-color: #eceef1;
 }
 a {
@@ -175,7 +176,7 @@ nav {
 }
 .nav-text p {
 	margin-bottom: 2px;
-	color: #505050;
+	color: #8d9096;
 }
 
 /*------------------------logo header------------*/
@@ -201,9 +202,9 @@ header {
 	margin: 5px;
 }
 #icons-list a {
-	color: #505050;
+	color: #8d9096;
 	font-size: 20px;
-	font-weight: 300;
+	font-weight: 600;
 }
 
 #icons-list a:hover {
@@ -211,8 +212,9 @@ header {
 }
 
 #icons-list {
-	width: fit-content;
+	width: 350px;
 	margin: auto;
+	text-align: center;
 }
 
 .brand-icon {
@@ -220,4 +222,90 @@ header {
 	border: none;
 	border-radius: 50%;
 	vertical-align: text-top;
+}
+
+/*----------------------FORM---------------------*/
+#form-div {
+	width: 300px;
+	height: 700px;
+	margin: auto;
+	margin-top: 15px;
+	background-color: white;
+	border: 1px solid #8d9096;
+	padding: 35px;
+	padding-top: 20px;
+}
+#form-header {
+	text-align: center;
+	width: 290px;
+	font-size: 14px;
+	color: #393a3d;
+}
+h2 {
+	font-size: 24px;
+	margin: 20px 0;
+	font-weight: 100px;
+}
+#form-header p {
+	margin: 5px;
+	color: #8d9096;
+}
+
+label {
+	display: block;
+	margin: 40px 0;
+	font-size: 14px;
+}
+input {
+	display: block;
+	margin: 10px 0;
+	width: 100%;
+	height: 28px;
+	border: 1px solid #c1c5c8;
+	border-radius: 3px;
+}
+
+input:focus {
+	outline: none;
+	border: 1px solid #0076c593;
+	box-shadow: 0 0 5px 1px #0076c593;
+}
+
+.info {
+	font-size: 13px;
+	color: #8d9096;
+}
+
+button[type='submit'] {
+	width: 100%;
+	height: 45px;
+	margin: auto;
+}
+
+#terms {
+	margin: 30px 0;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+/*-------------------footer--------------------*/
+
+#bottom-nav {
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+#bottom-nav li {
+	display: inline-block;
+	font-size: 11px;
+	margin: 20px 10px;
+}
+#bottom-nav a {
+	color: #393a3d;
+}
+
+#bottom-nav p {
+	font-size: 12px;
 }

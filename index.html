@@ -7,6 +7,8 @@
 		<title>Looks Like Mint Sign Up</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
       rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 		<link href="main.css" rel="stylesheet" />
 
 
@@ -41,14 +43,55 @@
         </header>
 
 		<main>
-			<form>name email</form>
+            <div id="form-div">
+                <header id="form-header">
+                    <h2>Create an Intuit account</h2>
+                    <p>One account for everything Intuit, including Mint.</p>
+                    <a href=#>Learn More</a>
+                </header>
+			    <form>
+                    <label>
+                        Email address
+                        <input type="email" id="email">
+                    </label>
+                    <label>
+                        Phone <span class="info">(recomended)</span>
+                        <input type="tel" id="phone">
+                    </label>
+                    <label>
+                        Password
+                        <input type="password" id="password" required>
+                    </label>
+                    <label>
+                        Confirm Password
+                        <input type="password" id="check-password" required>
+                    </label>
+
+                    <button type="submit"><span class="material-icons-outlined"> lock </span>Create Account</button>
+                </form>
+                <div id="terms">
+                    <p>By selecting Create Account, you agree to our <a href=#>Terms</a> and have read and acknowledge our <a href=#>Global Privacy Statement</a>.<p>
+                </div>
+            </div>
 		</main>
 
         <footer>
+            <nav id="bottom-nav">
+                <ul>
+                    <li>
+                        <a href=#>Legal</a>
+                    </li>
+                    <li>
+                        <a href=#>Privacy</a>
+                    </li>
+                       <li>
+                        <a href=#>Security</a>
+                    </li>
+
+                </ul>
             <nav>
-                legal privacy security
-                terms and conditions
-                <nav>
+            <p>© 2021 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
         </footer>
 		<script src="main.js"></script>
 	</body>
